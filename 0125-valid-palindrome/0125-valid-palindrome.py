@@ -5,7 +5,8 @@ class Solution:
         print(sp) 
         spr=sp[::-1]
         print(spr)
-        for x in range(len(sp)):
+        t=len(sp)
+        for x in range(t):
             if sp[x]!=spr[x]:
                 return False
         return True         
